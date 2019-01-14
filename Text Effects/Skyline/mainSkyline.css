@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 8em;
+  letter-spacing: 0.1em;
+  background: #72c3ff;
+  color: rgb(241, 177, 238);
+  text-shadow: 0 5px 2px rgba(0, 0, 0, 2);
+  overflow: hidden;
+}
+
+h1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/skyline004.png);
+  background-size: cover;
+  z-index: -1;
+  animation: animateBefore 35s linear infinite;
+  transition: .5s;
+}
+
+h1:hover:before {
+    top: 0;
+}
+
+@keyframes animateBefore
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 100%;
+    }
+}
+
+
+
+h1:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/skyline002.png);
+    background-size: cover;
+    z-index: -1;
+    animation: animateAfter 35s linear infinite;
+    transition: .5s;
+  }
+  
+  h1:hover:after {
+      top: 0;
+  }
+  
+  @keyframes animateAfter
+  {
+      0%
+      {
+          background-position: 0%;
+      }
+      100%
+      {
+          background-position: 100%;
+      }
+  }
+
+
