@@ -37,6 +37,7 @@ html, body {
     animation: .8s shake infinite alternate;
   }
   
+
   @keyframes shake {
     0% { transform: skewX(-15deg); }
     5% { transform: skewX(15deg); }
@@ -45,4 +46,5 @@ html, body {
     20% { transform: skewX(0deg); }
     100% { transform: skewX(0deg); }  
   }
+  
   
