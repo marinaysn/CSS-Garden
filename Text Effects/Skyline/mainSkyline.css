@@ -51,8 +51,6 @@ h1:hover:before {
     }
 }
 
-
-
 h1:after {
     content: "";
     position: absolute;
