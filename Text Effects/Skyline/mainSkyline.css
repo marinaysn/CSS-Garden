@@ -63,7 +63,7 @@ h1:after {
     background: url(images/skyline002.png);
     background-size: cover;
     z-index: -1;
-    animation: animateAfter 35s linear infinite;
+    animation: animateAfter 25s linear infinite;
     transition: .5s;
   }
   
