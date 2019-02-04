@@ -34,7 +34,7 @@ h1 {
                     #164b00,
                     #be1717,
                     #be1717);
-  animation: .8s shake infinite alternate;
+  animation: .5s shake infinite alternate;
 }
 
 @keyframes shake {
