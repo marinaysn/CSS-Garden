@@ -9,7 +9,7 @@ body {
     background: #06031d;
 }
 
-a{
+a {
     position: relative;
     padding: 15px 30px;
     font-size: 2.5em;
@@ -19,6 +19,9 @@ a{
     color: #fff;
     box-shadow: 0 0 40px rgba(0, 0, 0, .5);
     overflow: hidden;
+}
+a:hover{
+    color: #03a9f4;
 }
 
 a span {
