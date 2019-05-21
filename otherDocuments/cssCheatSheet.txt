@@ -1,0 +1,31 @@
+source:
+
+*The CSS Handbook: a handy guide to CSS for developers
+https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11
+
+*CSS Crash Course For Absolute Beginners
+https://www.youtube.com/watch?v=yfoY53QXEnI
+
+The Most Advanced CSS Course - Natours Project Setup and First Steps Part 1
+https://www.youtube.com/watch?v=ZBw5hWy4hs4
+
+Learn Sass in this Free Crash Course - Give your CSS Superpowers!
+https://www.youtube.com/watch?v=roywYSEPSvc
+
+CSS3 Animation & Transitions Crash Course
+https://www.youtube.com/watch?v=zHUpx90NerM
+
+HTML5 & CSS3 tutorial: From Beginner to Expert
+https://www.youtube.com/watch?v=3MH8P2eFnnk
+
+Advanced CSS - Typography, color, and navigation
+https://www.youtube.com/watch?v=KIBbs2ehRXA
+
+Advanced CSS and Sass: Take Your CSS to the Next Level! : Building the Tours Section - Part 1
+https://www.youtube.com/watch?v=pePvSXbPLBM
+
+HTTP, HTML, CSS - Intro to Computer Science - Harvard's CS50
+https://www.youtube.com/watch?v=mudOTSUumXg
+
+-----------------------------------
+* examples shown

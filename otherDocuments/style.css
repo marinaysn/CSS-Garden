@@ -1,0 +1,121 @@
+
+/* set for everything */
+/* 
+*{
+    margin: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    padding: 0;
+} 
+*/
+
+body {
+    background: rgb(246, 247, 202);
+    color: rgb(66, 51, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 10px;
+}
+
+h2 {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 7, 80);
+}
+
+a:hover{
+    color: red
+}
+a:active{
+    color: rgb(155, 87, 11)
+}
+a:visited{
+    color: rgb(125, 143, 25)
+}
+
+
+
+/* classes */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.box-1 {
+    color: rgb(7, 70, 107);
+    background: rgb(212, 206, 206);
+    width: 80%;
+    border: 3px grey solid;
+    border-right: 7px red solid;
+    border-bottom-width: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-2 {
+    border: 2px dotted #cccccc;
+    padding: 10px;
+}
+
+.box-2 h1 {
+    font: italic bold 29px Arial;
+
+}
+
+.textDeco.oneT{
+    color: rgb(158, 14, 103);
+    font-size: 32px;
+}
+
+.textDeco{
+    color: rgb(14, 158, 158);
+}
+
+.oneT{
+    font-size: 12px;
+}
+
+
+.family {
+    border: 1px rgb(51, 65, 68) solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+.family h2 {
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+p#fam {
+    color: rgb(43, 8, 75);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.family ul {
+    list-style: square;
+}
+
+.family li {
+
+    list-style-image: url(images/2.png);
+    margin-right: 15px;
+    border-bottom: dotted 1px #333;
+padding-left: 5px;
+}
+
+.family .list-li{
+    background: url(images/1.png) no-repeat;
+    padding: 4px 0 4px 35px;
+    list-style: none;
+
+}
