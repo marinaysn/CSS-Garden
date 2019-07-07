@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Tutorial</title>
+
+    <style>
+        .jumbotron {
+            background-color: #2E2D88;
+            color: white;
+        }
+
+        /* Adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Bootstrap Tutorial </h1>
+            <h3>~ Buttons ~</h3>
+
+        </div>
+
+        <!-- jumbotron enlarges fonts and puts everything in a gray box 
+    with rounded corners. If jumbotron is outside a container 
+    it fills the total width. 
+    You can change the styles by placing the changes after 
+    the Bootstrap CDN link -->
+        <div class="jumbotron">
+            <p>Test Bootstrap</p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos fugiat tempore qui corporis non! Nisi
+                rerum aliquam dicta vitae omnis repellat accusamus voluptatem in et, sequi doloribus odio consequatur
+                voluptatum?
+            </p>
+
+                <!-- BUTTONS -->
+                <!-- There are many built in button colors and sizes. 
+                If a link is to trigger in page functionality it should use role="button". 
+                The button element should be used in most situations -->
+
+            <p>
+                <a href="#" class="btn btn-lg btn-light" role="button">More Info</a>
+                <button type="submit" class="btn btn-danger" role="button">Danger</button>
+
+                <input type="button" value="Info" class="btn btn-info" />
+                <button type="submit" class="btn btn-primary btn-sm" role="button">Primary</button>
+                <button type="submit" class="btn btn-success btn-xs" role="button">Success</button>
+                <button type="submit" class="btn btn-warning btn-lg" role="button">Warning</button>
+                <button type="submit" class="btn btn-link btn-lg" role="button">Link</button>
+
+                <button type="submit" class="btn btn-primary btn-lg" role="button" disabled="disabled">Disabled Button
+                </button>
+                <a href="#" class="btn btn-primary btn-light disabled" role="button">Disabled Link</a>
+
+            <div class="btn btn-group btn-group-lg" role="group">
+                <button type="button" class="btn btn-primary btn-sm">Small</button>
+                <button type="button" class="btn btn-success">Medium</button>
+                <button type="button" class="btn btn-warning btn-lg">Large</button>
+
+            </div>
+
+
+            </p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Use downloaded version of Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
