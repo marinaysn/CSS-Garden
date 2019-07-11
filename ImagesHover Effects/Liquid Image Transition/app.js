@@ -4,6 +4,9 @@ new hoverEffect({
     intensity: 0.4,
     image1: './images/1.jpg',
     image2: './images/2.jpg',
+    // image1: './images/putin/31.png',
+    // image2: './images/putin/32.png',
+
     // angle: 0.785,
     // speedIn: 1,
     // speedOut: 2,

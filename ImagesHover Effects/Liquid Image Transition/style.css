@@ -7,10 +7,14 @@
 .distortion {
     width: 540px;
     height: 820px;
+
+    /* width: 275px;
+    height:  183px; */
+
     align-self: center;
 }
 .intro{
-    align-self: center;
+    align-self: top;
 }
 
 .intro h2{
