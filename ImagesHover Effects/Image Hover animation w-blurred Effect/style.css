@@ -2,7 +2,7 @@ body {
     background: #d5d5d5
 }
 .wrapper {
-    width: 1000px;
+    width: fit-content;
     position: absolute;
     top: 50%;
     left: 50%; 
