@@ -1,5 +1,100 @@
-body{
-  background: rgb(220, 255, 236);
-  color: rgb(4, 75, 85);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.divider {
+  background-color: #d2d6da42;
+  margin-top: 75px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#header-img {
+  width: 250px;
+}
+
+#nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+#email {
+  min-width: 450px;
+}
+
+button {
+  min-width: 200px;
+}
+
+.largeIcon {
+  font-size: 25px;
+  color: #ffc107;
+}
+
+.priceCards {
+
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 50px;
+}
+
+.prices {
+  background: #cfcfcf;
   text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.fullCard {
+  width: 245px;
+  
+  margin: 10px 5px;
+  padding: 4px;
+  
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+ 
+}
+
+
+}
+
+@media (max-width: 575px) {
+  /* body{
+  background: rgb(211, 53, 171);
+  } */
+
+  #email {
+    min-width: 250px;
+  }
+  iframe {
+    max-width: 350px;
+
+    height: auto;
+  }
+
+  .divider {
+    margin-top: 125px;
+  }
+
+  .priceCards {
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 50px;
+    text-align: center;
+  }
 }
