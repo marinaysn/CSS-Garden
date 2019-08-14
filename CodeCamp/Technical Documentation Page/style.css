@@ -55,3 +55,39 @@ pre{
   font-size: 12px;
 }
 
+ul .circleList
+{
+  list-style-type:circle;
+}
+
+.headerTitle{
+  padding: 12px 0;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 575px) {
+
+  ul.headerList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: #f1f1f1;
+    overflow: hidden;
+    
+  }
+  
+  li.headerListItem {
+    display: inline;
+    color: #000; 
+    text-decoration: none;
+    border: 1px solid rgba(3, 8, 56, 0.349);
+  padding: 8px 16px;
+ 
+
+  }
+}
+
+
