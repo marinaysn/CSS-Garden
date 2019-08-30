@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden; /* The overflow-x property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the left and right edges. */
+  background-image: url(images/2.jpeg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; /* A percentage of the full viewport height. 10vh will resolve to 10% of the current viewport height, 100vh is 100% */
+  /* font-size: calc(3px + 3vmin);  */
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 0;
+  clear: both;
+}
+
+.menu-area {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #262626;
+  width: 250px;
+}
+
+.menu-area li {
+  position: relative;
+}
+
+.menu-area li a {
+  text-align: center;
+  height: 36px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #ddd;
+}
+
+.menu-area li a strong {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Goudy Bookletter 1911", "Ramabhadra", "Roboto", serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.menu-area li:hover > a {
+  color: rgb(230, 93, 15);
+}
+.menu-area li ul,
+.menu-area li ul li ul {
+  background: #262626;
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms;
+  z-index: 999;
+  left: 280px;
+  top: 0;
+  list-style: none;
+  position: absolute;
+  height: auto;
+  min-width: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-area li:hover > ul,
+.menu-area li ul li:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  left: 250px;
+}
+
+.menu-area li ul li a {
+  text-transform: uppercase;
+  font-family: "Goudy Bookletter 1911", "Ramabhadra", "Roboto", serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  height: auto;
+}
+
+.menu-area li ul li ul {
+  top: 0;
+  left: 230px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
