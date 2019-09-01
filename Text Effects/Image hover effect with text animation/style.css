@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: #262626;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.wrapper {
+  margin-top: 5%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-area {
+  width: 280px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.image-area {
+  padding: 20px;
+  height: 350px;
+  width: 280px;
+  background-image: url(./images/photo-1552072805-2a9039d00e57.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center;
+  -position: center center;
+}
+
+.image-text h2 {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.image-text {
+  position: relative;
+  transform-style: preserve-3d; /* Let the transformed child elements preserve the 3D transformations / The transform-style property specifies how nested elements are rendered in 3D space*/
+  /* transform: skewY(10deg); */
+  transform-origin: 0 0;
+  animation-duration: 1.5s;
+  animation-timing-function: linear; /* specifies the speed curve of an animation */
+  animation-fill-mode: forwards;
+  transition: opacity 0.1s;
+  opacity: 0;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  color: #262626;
+}
+
+.image-text i {
+    padding: 0 5px;
+}
+
+.content-area:hover .image-text{
+    opacity: 1;
+    animation-name: animate;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: rotateX(-270deg);
+    }
+
+    60%{
+        transform: rotateX(-380deg);
+    }
+
+    80%{
+        transform: rotateX(-370deg);
+    }
+
+    100%{
+        transform: rotateX(-360deg);
+    }
+}
+
+.demo{
+
+    margin: 5px;
+}
