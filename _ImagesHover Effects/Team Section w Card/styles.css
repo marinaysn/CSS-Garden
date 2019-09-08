@@ -1,0 +1,63 @@
+body {
+  background: #262626;
+}
+
+img {
+  max-width: 100%;
+  height: 300px;
+
+}
+
+.custom-padding {
+  padding: 45px 0;
+}
+
+.socials a {
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 30px;
+}
+
+.socials {
+margin-top: -57px;
+position: relative;
+z-index: 2;
+border-radius: 25%;
+background: chocolate;
+text-align: center;
+padding: 5px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.team-area h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.team-area h2 span{
+    color:chocolate;
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+@media (max-width:991px) {
+    img {
+        width: 100%;
+        height: auto;
+      
+      }
+}
