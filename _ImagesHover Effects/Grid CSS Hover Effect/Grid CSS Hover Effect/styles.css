@@ -14,7 +14,8 @@ body{
     width: 20px;
     height: 20px;
     float: left;
-    background: transparent;
+    /* background: transparent; */
+    background: #262626;
     box-sizing: border-box;
     transition: 1s ease-in-out;
 }
