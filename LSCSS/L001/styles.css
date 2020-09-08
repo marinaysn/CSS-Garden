@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: serif;
+    color: #2f4f4f;
+    margin-bottom: 10px;
+}
+
+#page-title {
+    font-family: sans-serif; 
+    color: blue;
+}
+
+.nav {
+    margin-top: 40px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* .title {
+    font-family: monospace;
+    color: rgb(8, 153, 15);
+} */
+
+.nav li {
+    display: inline-block;   
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #13a4a4; 
+    padding: 15px; 
+    border-radius: 5px;
+}
+
+a.featured {
+    background-color: orange;
+    color: #000;
+}
